@@ -1,12 +1,12 @@
-document.querySelector('.themetoggle').addEventListener('click', event => {
-  event.preventDefault();
-  if (localStorage.getItem('theme') === 'dark') {
-    localStorage.removeItem('theme');
-  } else {
-    localStorage.setItem('theme', 'dark');
-  }
-  addDarkClassToHTML();
-});
+// document.querySelector('.themetoggle').addEventListener('click', event => {
+//   event.preventDefault();
+//   if (localStorage.getItem('theme') === 'dark') {
+//     localStorage.removeItem('theme');
+//   } else {
+//     localStorage.setItem('theme', 'dark');
+//   }
+//   addDarkClassToHTML();
+// });
 
 function addDarkClassToHTML() {
   try {
@@ -21,9 +21,6 @@ function addDarkClassToHTML() {
       document.querySelector('.modal').classList.add('dark');
       document.querySelector('.main-render').classList.add('dark');
     } else {
-      // document.querySelector('.main-render').classList.remove('dark');
-      // document.querySelector('.queued-render').classList.remove('dark');
-
       document.querySelector('body').classList.remove('dark');
       document.querySelector('.themetoggle').classList.remove('dark');
       document.querySelector('.material-icons').classList.remove('dark');
