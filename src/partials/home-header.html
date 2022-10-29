@@ -1,0 +1,67 @@
+<header class="header-home" data-daynighth>
+  <div class="container">
+    <nav class="header__nav">
+      <a href="./index.html" class="header__logo">
+        <svg class="header__logo-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+        <span class="header__logo-text">Filmoteka</span></a
+      >
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a
+            href="./index.html"
+            class="header__nav-link header-list__link--active"
+            >Home</a
+          >
+        </li>
+        <li class="header__nav-item">
+          <a href="./library.html" class="header__nav-link header-link__hover"
+            >My library</a
+          >
+        </li>
+        <li class="header__nav-item">
+          <a
+            href="#"
+            class="header__nav-link header-link__hover"
+            id="btnLogin"
+            style="display: none"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="header__nav-link header-link__hover"
+            id="btnLogout"
+            style="display: none"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="day-nigth-btn-box">
+      <span class="day">
+        <svg class="" width="24" height="24">
+          <use href="./images/icons.svg#icon-sun"></use></svg
+      ></span>
+      <a href="#" class="themetoggle"> <span class="material-icons"></span></a>
+      <span class="night">
+        <svg class="" width="24" height="24">
+          <use href="./images/icons.svg#icon-moon"></use></svg
+      ></span>
+    </div>
+    <form class="header-form">
+      <input
+        type="text"
+        placeholder="Movie search"
+        class="header-form__input"
+        name="searchQuery"
+      />
+      <button class="header-form__btn">
+        <svg class="header-form__btn-icon">
+          <use href="./images/icons.svg#icon-search"></use>
+        </svg>
+      </button>
+    </form>
+    <p class="header-search__text"></p>
+  </div>
+</header>

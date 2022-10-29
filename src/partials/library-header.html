@@ -1,0 +1,68 @@
+<header class="header-library" data-daynighth>
+  <div class="container">
+    <nav class="header__nav">
+      <a href="./index.html" class="header__logo">
+        <svg class="header__logo-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+        <span class="header__logo-text">Filmoteka</span></a
+      >
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a href="./index.html" class="header__nav-link header-link__hover"
+            >Home</a
+          >
+        </li>
+        <li class="header__nav-item">
+          <a
+            href="./library.html"
+            class="header__nav-link header-list__link--active"
+            >My library</a
+          >
+        </li>
+        <li class="header__nav-item">
+          <a
+            href="#"
+            class="header__nav-link header-link__hover"
+            id="btnLogin"
+            style="display: none"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="header__nav-link header-link__hover"
+            id="btnLogout"
+            style="display: none"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="day-nigth-btn-box">
+      <span class="day">
+        <svg class="" width="24" height="24">
+          <use href="./images/icons.svg#icon-sun"></use></svg
+      ></span>
+      <a href="#" class="themetoggle"> <span class="material-icons"></span></a>
+      <span class="night">
+        <svg class="" width="24" height="24">
+          <use href="./images/icons.svg#icon-moon"></use></svg
+      ></span>
+    </div>
+    <ul class="header__btn-wrapper">
+      <li class="library__btn-item">
+        <button
+          class="header__btn--library btn--active watched-btn"
+          type="button"
+        >
+          Watched
+        </button>
+      </li>
+      <li class="library__btn-item">
+        <button class="header__btn--library queue-btn" type="button">
+          Queue
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
